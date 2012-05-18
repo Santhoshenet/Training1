@@ -20,6 +20,8 @@ Training1::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  config.active_support.deprecation = :silence
+
   # Defaults to Rails.root.join("public/assets")
   # config.assets.manifest = YOUR_PATH
 
